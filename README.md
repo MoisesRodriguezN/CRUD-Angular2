@@ -1,5 +1,5 @@
-# CRUD Angular2
-## Crud en Angular 2
+# Proyecto CRUD Angular2 + Firebase
+## Crud realizado en Angular2 con base de datos Firebase
 
 La base de datos usada está subida en la raiz del repositorio con nombre  [proyecto-angular2-moises-export.json](proyecto-angular2-moises-export.json "Base de datos")
 
