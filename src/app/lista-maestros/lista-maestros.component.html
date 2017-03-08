@@ -1,0 +1,16 @@
+
+<table class="table lessons-list card card-strong">
+  <tbody>
+  <tr *ngFor="let maestro of maestros">
+    <td class="lessons-title">{{maestro.nombre}} {{maestro.apellidos}}</td>
+    <td class="duration">
+
+      <span><i class="md-icon duration-icon">library_books</i> {{maestro.asignatura}}</span>
+    </td>
+
+    <td>
+      <button [routerLink]="maestro.url">Detalles</button>
+    </td>
+  </tr>
+  </tbody>
+</table>

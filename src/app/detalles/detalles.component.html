@@ -1,0 +1,14 @@
+<input class="search-bar" placeholder="Buscar"(keyup)="buscarDetalles(input.value)" #input>
+
+<table class="table lessons-list2 card card-strong">
+  <tbody>
+  <tr *ngFor="let detalleListado of detallesFiltrado">
+    <td class="lessons-title">{{detalleListado.descrip}}</td>
+    <td class="duration">
+
+      <span><i class="md-icon duration-icon">access_time</i>{{detalleListado.horas}} </span>
+    </td>
+  </tr>
+  </tbody>
+</table>
+

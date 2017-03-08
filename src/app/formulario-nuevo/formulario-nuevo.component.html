@@ -1,0 +1,66 @@
+<form [formGroup]="form" autocomplete="off" novalidate class="lesson-form">
+
+  <fieldset>
+    <legend>Detalle</legend>
+    <div class="form-field">
+      <label>Descripcion:</label>
+      <input name="title" formControlName="descrip" placeholder="Descripción">
+      <div class="field-error-message"
+          *ngIf="isErrorVisible('descrip','required')">Este campo es necesario</div>
+    </div>
+    <div class="form-field">
+      <label>Horas:</label>
+      <input name="title" formControlName="horas" placeholder="Horas">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('horas','required')">Este campo es necesario</div>
+    </div>
+    <div class="form-field">
+      <label>Id_maestro:</label>
+      <input name="title" formControlName="id_maestro" placeholder="8">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('id_maestro','required')">Este campo es necesario</div>
+    </div>
+    <div class="form-field">
+      <label>Url:</label>
+      <input name="title" formControlName="url" placeholder="profesor-seis">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('url','required')">Este campo es necesario</div>
+    </div>
+  </fieldset>
+
+ <!-- <fieldset>
+    <legend>Maestro</legend>
+    <div class="form-field">
+      <label>Apellidos:</label>
+      <input name="title" formControlName="apellidos">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('apellidos','required')">field is mandatory</div>
+    </div>
+    <div class="form-field">
+      <label>Asignatura:</label>
+      <input name="title" formControlName="asignatura">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('asignatura','required')">field is mandatory</div>
+    </div>
+    <div class="form-field">
+      <label>DNI:</label>
+      <input name="title" formControlName="dni">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('dni','required')">field is mandatory</div>
+    </div>
+    <div class="form-field">
+      <label>Nombre:</label>
+      <input name="title" formControlName="nombre">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('nombre','required')">field is mandatory</div>
+    </div>
+
+    <div class="form-field">
+      <label>Url:</label>
+      <input name="title" formControlName="url">
+      <div class="field-error-message"
+           *ngIf="isErrorVisible('url','required')">field is mandatory</div>
+    </div>
+  </fieldset>-->
+
+</form>
