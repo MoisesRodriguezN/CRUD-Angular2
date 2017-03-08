@@ -1,0 +1,96 @@
+{
+  "detalle" : {
+    "1" : {
+      "descrip" : "Profesor Licenciado en Matemáticas",
+      "horas" : "40h/s",
+      "id_maestro" : 1,
+      "url" : "profesor-uno"
+    },
+    "2" : {
+      "descrip" : "Profesor de ciencias",
+      "horas" : "20h/s",
+      "id_maestro" : 2,
+      "url" : "profesor-dos"
+    },
+    "3" : {
+      "descrip" : "Profesor de tecno",
+      "horas" : "45h/s",
+      "id_maestro" : 3,
+      "url" : "profesor-tres"
+    },
+    "-KeJXch2okujk0tpbGd_" : {
+      "descrip" : "Profesor en prácticas",
+      "horas" : "2h/s",
+      "id_maestro" : "6",
+      "url" : "profesor-seis"
+    },
+    "-KeJapFcy-586MqieVma" : {
+      "descrip" : "Profesor de música",
+      "horas" : "20h/s",
+      "id_maestro" : "4",
+      "url" : "profesor-cuatro"
+    },
+    "-KeJdjcM2RtEHOqKFC59" : {
+      "descrip" : "Profesor de Java",
+      "horas" : "80h/s",
+      "id_maestro" : "5",
+      "url" : "profesor-cinco"
+    },
+    "-KeLaiUaIA2N2bORajz4" : {
+      "descrip" : "Profesor experto en Python",
+      "horas" : "35h/s",
+      "id_maestro" : "8",
+      "url" : "profesor-ocho"
+    },
+    "-KeLfzJYRH1qWXMWhZKa" : {
+      "descrip" : "Prueba de profesorado",
+      "horas" : "1h/s",
+      "id_maestro" : "9",
+      "url" : "profesor-nueve"
+    }
+  },
+  "maestro" : {
+    "1" : {
+      "apellidos" : "Salobreña Pasta",
+      "asignatura" : "Economia",
+      "dni" : "27389403K",
+      "nombre" : "Carlos",
+      "url" : "profesor-uno"
+    },
+    "2" : {
+      "apellidos" : "Castro",
+      "asignatura" : "Ciencias de la naturaleza",
+      "dni" : "35738603U",
+      "nombre" : "Aquiles",
+      "url" : "profesor-dos"
+    },
+    "3" : {
+      "apellidos" : "Nigote",
+      "asignatura" : "Tecnologia",
+      "dni" : "45723789Y",
+      "nombre" : "Guillermo",
+      "url" : "profesor-tres"
+    },
+    "-KeLbLUuL-Q4lKnwsfKT" : {
+      "apellidos" : "Bronca Segura",
+      "asignatura" : "Música",
+      "dni" : "76548934K",
+      "nombre" : "Armando",
+      "url" : "profesor-cuatro"
+    },
+    "-KeLe6s-XZSoRLY_W4cm" : {
+      "apellidos" : "Jodido del Todo",
+      "asignatura" : "Java",
+      "dni" : "43578386E",
+      "nombre" : "Juanjo",
+      "url" : "profesor-cinco"
+    },
+    "-KeLfgJVdJsmvwbH7PzX" : {
+      "apellidos" : "Nitales",
+      "asignatura" : "Python",
+      "dni" : "46257824Y",
+      "nombre" : "Jorge",
+      "url" : "profesor-ocho"
+    }
+  }
+}
